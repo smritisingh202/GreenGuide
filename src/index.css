@@ -5,9 +5,27 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 100vw;
+  height: 100vh;
+  background: url('https://www.teahub.io/photos/full/49-496665_leaf-background-for-powerpoint.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.photo{
+  width: 300px;
+  height: 300px;
+}
+
+
+.btn-outline-success{
+
+  font-style: italic;
 }
